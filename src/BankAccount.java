@@ -1,6 +1,6 @@
 import java.io.Serializable;
 
-/**
+/*
  Clase que representa una cuenta bancaria.
  */
 public class BankAccount implements Serializable {

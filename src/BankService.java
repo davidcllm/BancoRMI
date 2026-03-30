@@ -1,7 +1,7 @@
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
-/**
+/*
  Interfaz remota del servicio bancario.
  Esta interfaz es la llave entre cliente y servidor:
  -El servidor la implementa con la lógica real.

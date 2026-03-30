@@ -1,6 +1,6 @@
 import java.io.Serializable;
 
-/**
+/*
  Excepcion personalizada para errores del dominio bancario.
  */
 public class BankException extends Exception implements Serializable {
