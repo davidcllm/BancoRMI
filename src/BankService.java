@@ -2,11 +2,11 @@ import java.rmi.Remote;
 import java.rmi.RemoteException;
 
 /*
- Interfaz remota del servicio bancario.
- Esta interfaz es la llave entre cliente y servidor:
- -El servidor la implementa con la lógica real.
- -El cliente solo conoce esta interfaz; nunca ve la implementación.
- */
+Interfaz remota del servicio bancario.
+Esta interfaz es la llave entre cliente y servidor:
+-El servidor la implementa con la lógica real.
+-El cliente solo conoce esta interfaz; nunca ve la implementación.
+*/
 public interface BankService extends Remote {
 
     BankAccount crearCuenta(String nombrePropietario, double saldoInicial)
